@@ -29,7 +29,8 @@ num_epoch = 50
 learning_rate = 0.0002
 image_path = 'images/'
 traindata = "C:/Users/furkam/PycharmProjects/PyhtonTest1/Root/YapayZeka/Dressing/test/resizedtraindata/"
-
+#buradaki traindata değişkeni bütün resimlerinin bulunduğu klasördür. 
+#burada test ve train değişkenine ihtiyaç yoktur.
 if not os.path.exists(image_path):
     os.mkdir(image_path)
     
